@@ -2,43 +2,154 @@
 <html>
 <head>
 	<title>SignUp-Page</title>
-</head>
-<body >
-	<h1 align="center">This is SignUp Page</h1>
-	<table border="0" width="600" height="600" align="center" bgcolor="00ff00">
 
-		<tr>
-			<td>
-					<table border="0" width="450" height="500" align="center" bgcolor="white">
-
-					<tr>
-						<td align="center" height="80" width="350"><h1>SignUp</h1></td>
-					</tr>
-
-					<tr>
-						<td align="center">
-						<form action="#" method="get">
-
-							<input type="text" name="name1" placeholder="Username" required><br><br>
-							<input type="email" name="email1" placeholder="email" required><br><br>
-							<input type="password" name="password1" placeholder="password" required><br><br>
-							<input type="password" name="conformPassword1" placeholder="conformPassword" required><br><br><br>
-							<button >SignUp</button> <button><a href="MyWebPage1.html">Home</a></button>
-
-						</form></td>
-						
-					</tr>
-
-					<tr bgcolor="white">
-						<td align="center" height="50" width="350">Already have a Account? <a href="LoginPage1.html">Login now</a> </td>
-					</tr>
-
-					
-				</table>
-				
-			</td>
-		</tr>
+	<style>
 		
-	</table>
+		body{
+
+				background-image: url('z1.jpg');
+				background-repeat: no-repeat;
+				background-size: cover;
+		}
+
+		#div1{
+
+			background-color: black;
+			width: 300px;
+			height: 420px;
+			margin-left: 450px;
+			margin-top: 60px;
+
+			opacity:0.7 ;
+			border-radius: 0px 60px;
+
+		}
+
+		#img1{
+
+			margin-left: 80px;
+			margin-top: -60px;
+
+		}
+
+		#h1{
+
+				color: white;
+				margin-left: 100px;
+				margin-top: 5px;
+		}
+
+		input{
+			margin-left: 70px;
+			margin-top: 15px;
+			padding-block: 2px;
+
+			border-radius: 0px 10px;
+			border-color: white;
+		}
+
+		
+		#btn1{
+			
+			margin-left: 70px;
+			margin-top: 20px;
+			width: 170px;
+			height:25px;
+
+			border-radius: 40px 40px;
+		}
+		p{
+			color: white;
+			margin-top: 25px;
+			margin-left: 60px;
+		}
+
+		a:link{
+
+			color: yellow;
+			
+		}
+
+		#div2{
+
+			background-color: white;
+			width: 1230px;
+			border-radius: 40px 40px;
+			opacity: 0.8;
+
+		}
+
+		ul{
+			margin-left: 600px;
+			width: 1350px;
+			height: 40px;
+		}
+
+		ul li{
+
+
+			display: inline;
+			margin-left: 50px;
+			padding: 8px;
+			font-weight: bold;
+			line-height: 40px;
+			font-size: 18px;
+		}
+
+		ul li:hover{
+
+			background-color: black;
+			color: red;
+			border-radius: 30px 30px;
+		}
+
+		a:hover{
+
+			color: red;
+			background-color: black;
+
+		}
+		
+		
+
+		#a1:visited{
+
+			color: yellow;
+
+		}
+	
+
+	</style>
+
+</head>
+<body>
+	<div id="div2">
+		
+		<ul>
+			<li><a href="MyWebPage1.html"> Home </a></li>
+			<li><a href="SignUpPage1.html"> SignUp </a></li>
+			<li><a href="LoginPage1.html"> Login </a></li>
+			<li><a href="AboutPage1.html"> About </a></li>
+			<li><a href="HelpPage1.html"> Help </a></li>			
+		</ul>
+
+	</div>
+	<div id="div1">
+
+		<img src="LoginLogo.png" id="img1">
+		<h1 id="h1">SignUp</h1>
+
+		<form>
+			<input type="text" name="username" placeholder="Enter Username" required>
+			<input type="email" name="email" placeholder="Enter Email " required>
+			<input type="password" name="password" placeholder="Enter password" required>
+			<input type="password" name="cpassword" placeholder="Retype password" required>
+			<button value="submit" id="btn1">SignUp</button>
+			<p>Already have an account? <a href="LoginPage1.html" id="a1"> Login</a> </p>
+
+		</form>
+		
+	</div>
+	
 </body>
 </html>
