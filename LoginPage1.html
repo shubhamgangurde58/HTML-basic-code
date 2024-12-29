@@ -1,37 +1,140 @@
-
+<!DOCTYPE html>
 <html>
 <head>
-	<title>LoginPage</title>
+	<title>Login-Page</title>
+	<style>
+		body{
+			background-image: url('c1.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+
+		}
+
+		#div1{
+
+				
+			background-color: white;
+			height: 400px;
+			width: 300px;
+
+			margin-left: 500px;
+			margin-top: 60px;
+
+			opacity: 0.8;
+			border-radius: 0px 40px;
+
+		}
+
+		#img1{
+
+			height: 100px;
+			width: 100px;
+
+			margin-left: 100px;
+			margin-top: -40px;
+			border-radius: 50px;
+		}
+
+		#input{
+
+			margin-left: 60px;
+			margin-top: 15px;
+			border-color: blue;
+			padding: 5px;
+
+			border-radius: 0px 20px;
+		}
+
+		#img2{
+			height: 60px;
+			width: 150px;
+
+			margin-bottom: 20px;
+
+			margin-left: 50px;
+
+		}
+
+		#div2{
+
+			background-color: white;
+			height: 50px;
+			width: 1350px;
+
+			opacity: 0.8;
+
+			border-radius: 30px 30px;
+		}
+
+		ul{
+			margin-left: 700px;
+		}
+
+		ul li{
+
+			display: inline;
+			font-size: 20px;
+			margin-left: 30px;
+			font-weight: bold;
+			line-height: 45px;
+			padding: 15px;
+
+		}
+
+		#btn1{
+
+				margin-left: 60px;
+				margin-top: 10px;
+				width: 180px;
+				padding: 5px;
+				border-radius: 20px 20px;
+			}
+
+		ul li:hover{
+
+				background-color: red;
+				color: white;
+				border-radius: 30px;
+			}
+
+			a:hover{
+				background-color: red;
+				color: white;
+			}
+
+		
+	</style>
 </head>
 <body>
-	<h1 align="center">This is Login Page</h1>
+
+	<div id="div2">
+
+		<ul id="ul1">
+			<li><a href="MyWebPage1.html">Home</a></li>
+			<li><a href="SignUpPage1.html">SignUp</a></li>
+			<li><a href="LoginPage1.html">Login</a></li>
+			<li><a href="AboutPage1.html">About</a></li>
+			<li><a href="HelpPage1.html">Help</a></li>
+		</ul>
 		
-		<table border="0" width="600" height="600" align="center" bgcolor="00ccff" bgcolor="00ccff">
-			<tr>
-				<td>
-					<table border="0" width="450" height="500" align="center" bgcolor="white">
-						<tr>
-							<td align="center" width="100" height="50"><h1>Login</h1></td>
-						</tr>
-						<tr>
-							<td align="center" width="100" height="200">
-							<form action="#" method="get" >
-									<input type="text" name="username" placeholder="username"required><br><br><br>
-  									<input type="password" name="password" placeholder="password" required><br><br><br>
-									<button >Login</button> <button><a href="MyWebPage1.html">Home</a></button>
-								</form>
-							</td>
-						</tr>
-						<tr>
-							<td align="center" width="100" height="50">Not a Member? <a href="SignUpPage1.html">SignUp</a></td>
-						</tr>
-					
-					</table>
-				</td>
-			</tr>
-		</table>
+	</div>
 
+	<div id="div1">
 
+		<img src="logo.jpg" id="img1">
 
+		<h1 align="center">Login Window</h1>
+
+		<input type="text" placeholder="Username" id="input" required><br><br>
+		<input type="password" placeholder="Password" id="input" required><br><br>
+
+		<button id="btn1">Login</button><br><br>
+
+		<img src="s.jpg" id="img2">
+
+	</div>
+
+	
+			
 </body>
 </html>
